@@ -1,0 +1,40 @@
+{
+    "name": "Lablr",
+    "description": "The Instagram Extension for a fresh perspective",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./images/eye.png",
+            "32": "./images/eye.png",
+            "48": "./images/eye.png",
+            "128": "./images/eye.png"
+        }
+    },
+    "icons": {
+        "16": "./images/eye.png",
+        "32": "./images/eye.png",
+        "48": "./images/eye.png",
+        "128": "./images/eye.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.instagram.com/*",
+                "http://www.instagram.com/*"
+            ],
+            "js": [
+                "Content.js",
+                "jquery.js",
+                "jquery.withinviewport.js",
+                "withinviewport.js"
+            ]
+        }
+    ]
+}
