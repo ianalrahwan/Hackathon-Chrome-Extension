@@ -42,11 +42,9 @@ body {
     padding-top: 0px;
     width: 10rem;
     height: 15rem;
-    
-
 }
 
-.container {
+.list-group {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -99,6 +97,20 @@ body {
   /* Show the checkmark when checked */
   .container input:checked ~ .checkmark:after {
     display: block;
+  }
+
+  p {
+      text-align: center;
+      margin-top: -20px;
+  }
+
+  .save-cb-state {
+      margin-left: -25px;
+      padding-bottom: 20px;
+  }
+
+  .paddingAbove {
+      padding-top: 20px;
   }
   
   /* Style the checkmark/indicator */

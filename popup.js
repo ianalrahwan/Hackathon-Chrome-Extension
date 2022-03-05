@@ -19,7 +19,8 @@
     }
   
     // Get all checkboxes that you want to monitor state for
-    var cb = document.getElementsByClassName('save-cb-state');
+    var cb = document.getElementsByClassName('save-cb-state'); 
+    // UPDATE WAS HERE checkmark -> save-cb-state
   
     // Loop through results and ...
     for(var i = 0; i < cb.length; i++) {
