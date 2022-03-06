@@ -3,6 +3,7 @@
     "description": "The Instagram Extension for a fresh perspective",
     "version": "0.1",
     "manifest_version": 3,
+    "options_page": "options/information.html",
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
