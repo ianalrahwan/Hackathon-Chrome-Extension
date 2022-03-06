@@ -1,11 +1,169 @@
-/* body {
-    background-color: #222;
-    color: #eee;
+/* Credit to Mandy Michael: https://codepen.io/mandymichael/pen/WBvqbP */
 
-    width: 16rem;
-    height: 4rem;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+h1 {
+    font-size: 40px;
+	max-width: 300px;
+	text-align: center;
+	span {
+		width: 100%;
+		background-image: linear-gradient(
+			to bottom,
+			rgba(172, 106, 172, 0) 50%,
+			rgba(172, 106, 172, 1) 50%,
+			rgba(172, 106, 172, 1) 60%,
+			rgba(172, 106, 172, 0) 60%,
+		);
+		background-size: 0 100%;
+		background-repeat: no-repeat;
+		transition: 250ms linear;
+        
+	}
+    
+
+	/* // Demo animation */
+
+};
+
+
+html { height: 100%;}
+body {
+	background: #FBF3FF; /* background color */
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: rgba(172, 106, 172, 1); /*font color */
+	font-family: 'Righteous', cursive;
+	font-size: 1rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 10rem;
+    height: 21rem;
 }
 
-.special-text {
-    color: red;
-} */
+.list-group {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  p {
+      text-align: center;
+      margin-top: -20px;
+  }
+
+  .save-cb-state {
+      margin-left: -25px;
+      padding-bottom: 20px;
+  }
+
+  .paddingAbove {
+      padding-bottom: 20px;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+
+/* CSS */
+.button-81 {
+    margin-top:-40px;
+    margin-left:80px;
+    align-self: right;
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  /* padding: 1rem 1.6rem; */
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    /* padding: 1rem 2rem; */
+  }
+}
