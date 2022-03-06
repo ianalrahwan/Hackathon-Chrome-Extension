@@ -57,9 +57,14 @@ function hello() {
                 }
             }
         }
-        if (user_.querySelector('#added') === null) {
+        if ((user_.querySelector('#added') === null) && (!user_.querySelector('._7UhW9.PIoXz.qyrsm.KV-D4.uL8Hv'))) {
             var button = document.createElement("BUTTON");
-            button.innerHTML = "<button id = added class='absolute bottom - 0 right - 0 rounded - md shadow m - 2'>&#128065</button>";
+            button.style.backgroundColor = "white";
+            button.innerHTML = "&#129528";
+            button.style.marginLeft = "1rem";
+            button.id = "added"
+            button.style.borderColor = "grey"
+            button.style.borderRadius = "20px"
             user_.appendChild(button)
         }
     };
