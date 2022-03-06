@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+h1 {
+    font-size: 40px;
+	max-width: 300px;
+	text-align: center;
+	span {
+		width: 100%;
+		background-image: linear-gradient(
+			to bottom,
+			rgba(172, 106, 172, 0) 50%,
+			rgba(172, 106, 172, 1) 50%,
+			rgba(172, 106, 172, 1) 60%,
+			rgba(172, 106, 172, 0) 60%,
+		);
+		background-size: 0 100%;
+		background-repeat: no-repeat;
+		transition: 250ms linear;
+        
+	}
+    
+
+	/* // Demo animation */
+
+};
+
+
+html { height: 100%;}
+body {
+	background: #FBF3FF; /* background color */
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: rgba(172, 106, 172, 1); /*font color */
+	font-family: 'Righteous', cursive;
+	font-size: 1rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 10rem;
+    height: 21rem;
+}
