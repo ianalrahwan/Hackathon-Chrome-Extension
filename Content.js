@@ -47,28 +47,11 @@ function hello() {
                         added_flags = true;
                     }
                 }
-                if (flags[1] == '5') {
+                if (flags[1] == '2') {
                     if (added_flags == true) {
                         user_.innerHTML = user_.innerHTML + ", " + "ML_Lang";
                     } else {
                         user_.innerHTML = user_.innerHTML + ", " + "ML_Lang";
-                        added_flags = true;
-                    }
-                }
-
-                if (flags[2] == '1') {
-                    if (added_flags == true) {
-                        user_.innerHTML = user_.innerHTML + ", " + "CO_Extra";
-                    } else {
-                        user_.innerHTML = user_.innerHTML + " | " + "CO_Extra";
-                        added_flags = true;
-                    }
-                }
-                if (flags[2] == '5') {
-                    if (added_flags == true) {
-                        user_.innerHTML = user_.innerHTML + ", " + "ML_Extra";
-                    } else {
-                        user_.innerHTML = user_.innerHTML + ", " + "ML_Extra";
                         added_flags = true;
                     }
                 }
