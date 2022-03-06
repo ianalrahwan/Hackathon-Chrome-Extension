@@ -1,4 +1,4 @@
-var people = ["kimkardashian", "ye", "marcusfilly", "universityhousinganddining"];
+var people = ["meghantrainor", "gordongram", "jlo", "adamlevine", "kyrieirving", "joerogan"];
 
 /*
 The first digit indicates whether the user alters their photos.
@@ -8,7 +8,7 @@ Both follow the convention below:
 1: Crowd-source database confirmed
 2: ML suspecting
 */
-var flags_list = ["11", "01", "21", "01"];
+var flags_list = ["10", "00", "10", "20", "01", "01"];
 
 // CO_ -> implies community flagged, ML_ -> computer flagged
 // ImageEdit: Known to edit their photos
@@ -77,19 +77,11 @@ function hello() {
                     }
                     window.alert(string_res);
                 }
-                // let temp = document.createElement("div");
-                // temp.classList.add('modal');
 
-                // let child = document.createElement('div');
-                // child.classList.add('child');
-                // child.innerHTML = "Hello"
-
-                // temp.appendChild(child);
-                // document.body.appendChild(temp);
             };
         }
     };
-    // alert(`Stored ${all_users.length} usernames`);
+
 
 };
 
