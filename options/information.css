@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+h1 {
+    font-size: 100px;
+	text-align: center;
+    vertical-align: middle;
+
+};
+
+
+html { height: 100%;}
+body {
+	background: #FBF3FF; /* background color */
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: rgba(172, 106, 172, 1); /*font color */
+	font-family: 'Righteous', cursive;
+}
+
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: #222;
+  font-family: 'Righteous', cursive;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 120vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 12vmin;
+  /* padding: 2vmin 0; */
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid #000;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+  font-size: 30px;
+}
+.animated-title > div.text-top div span:first-child {
+    color: rgba(172, 106, 172, 1);
+    font-size: 250px;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+  font-size: 30px;
+}
+.animated-title > div.text-bottom div {
+  font-size: 30px;
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
+.paddingAbove {
+    padding-top: 520px;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-size: 17px;
+}
+
+
+.half-half-image-text{
+  padding: 70px 0px;
+  .cont{
+    height: 100%;
+    display:flex;
+    align-items: center;
+    padding: 35px 0px;
+    p{
+      font-size: 40px;
+    }
+  }
+  .img{
+    min-height: 320px;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Credit to: https://codepen.io/alvaromontoro/pen/RmRjvg 
+              https://codepen.io/pjwiebe/pen/VmmxpM
+
+
+
+*/
