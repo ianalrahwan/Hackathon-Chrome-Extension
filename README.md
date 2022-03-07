@@ -1,4 +1,8 @@
-# Lablr 1st Place Finish at Hack MERCED
+# Lablr 
+## (1st Place Finish at Hack MERCED)
+
+<img width="279" alt="Lablr" src="https://user-images.githubusercontent.com/31861846/157133683-937b2ef1-1d37-497d-a175-35126731e84b.PNG">
+
 #### This was made by Ian Alrahwan, Vineel Reddy Gajjala, and Sai Kurelli
 
 ### WON FIRST PLACE AT HACK MERCED (MLH CERTIFIED)
