@@ -1,5 +1,8 @@
-# Lablr
+# Lablr 1st Place Finish at Hack MERCED
 #### This was made by Ian Alrahwan, Vineel Reddy Gajjala, and Sai Kurelli
+
+### WON FIRST PLACE AT HACK MERCED (MLH CERTIFIED)
+### https://devpost.com/software/lablr-q9lyzm?ref_content=my-projects-tab&ref_feature=my_projects
 
 ### Inspiration
 With the introduction of social media, misinformation, body dysmorphia and mental health issues are at an all-time high. Young teens are seeing their favorite online personalities in their skinniest and edited forms, which can lead to body dysmorphia in the viewers which is a cause for disorders such as anorexia, bulimia, and others. It’s also led to an uptick in teenagers suicides since 2010, the founding year of Instagram. With younger sisters and brothers of our own, we came to one simple question: What can we do to help them? Enter, Lablr, a chrome extension that offers a fresh perspective on social media.
